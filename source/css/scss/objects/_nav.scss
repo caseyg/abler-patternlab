@@ -4,6 +4,7 @@
 
 .nav {
 	clear: both;
+	background: #000;
 	overflow: hidden;
 	max-height: 0;
 	
@@ -19,7 +20,6 @@
 
 	@media all and (min-width: $bp-med) {
 		max-height: none;
-		float: right;
 		clear: none;
 
 		li {
