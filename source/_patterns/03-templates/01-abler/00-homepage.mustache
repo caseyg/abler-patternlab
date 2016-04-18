@@ -3,7 +3,10 @@
 	{{> organisms-welcome-message }}
 	{{> molecules-cross-nav }}
 	{{> molecules-primary-nav-abler }}
-	{{> molecules-page-content }}
+	{{}}
+	{{# page-content }}
+		{{> molecules-page-content }}
+	{{/ page-content }}
 	{{> organisms-latest-posts }}
 	{{> organisms-footer }}	
 </div>
