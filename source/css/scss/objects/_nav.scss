@@ -2,50 +2,18 @@
     $NAVIGATION
 \*------------------------------------*/
 
-.nav {
-	clear: both;
-	overflow: hidden;
-	max-height: 0;
-	
-	a {
-		display: block;
-		padding: $pad;
-		border-top: 1px solid $gray-light-2;
-	}
-
-	&.active {
-		max-height: 40em;
-	}
-
-	@media all and (min-width: $bp-med) {
-		max-height: none;
-		clear: none;
-
-		li {
-			float: left;
-		}
-
-		a {
-			border: 0;
-		}
-		
-	}
+nav li {
+	display: inline-block;
+}
+nav li:after {
+	content: " •";
+}
+nav li:last-child:after {
+	content: "";
 }
 
-//Pagination
-.pagination {
-	overflow: hidden;
-
-	li {
-		float: left;
-		border-right: 1px solid $gray-light-2;
-
-		&:last-child {
-			border: 0;
-		}
-	}
-
-	a {
-		padding: $pad;
-	}
+.sara-active .sarahendren,
+.abler-active .abler,
+.aa-active .aa {
+	font-weight: bold;
 }
