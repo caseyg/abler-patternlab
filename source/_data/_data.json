@@ -23,8 +23,12 @@
 			"src": "http://placeimg.com/400/300/tech",
 			"alt": "Rectangle"
 		},
-		"sandbox": {
+		"sandbox-expanded": {
 			"src": "https://placeholdit.imgix.net/~text?txtsize=72&txt=Splash/Sandbox%20Area&w=1280&h=720",
+			"alt": "Splash/Sandbox Area"
+		},
+		"sandbox-collapsed": {
+			"src": "https://placeholdit.imgix.net/~text?txtsize=72&txt=Splash/Sandbox%20Area&w=1280&h=220",
 			"alt": "Splash/Sandbox Area"
 		}
 	},
